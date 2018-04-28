@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(1 1.c)
 add_executable(2 2.c foo.h foo.c)
+
 add_executable(hahaha loop.c)
 add_executable(heihei loop2.c)
 
@@ -14,3 +15,7 @@ target_link_libraries(delta libfoo)
 
 add_executable(ptr ptr.c)
 add_executable(ptr2 ptr2.c)
+
+add_executable(3 loop.c)
+add_executable(4 loop2.c)
+
