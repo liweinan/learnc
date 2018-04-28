@@ -9,6 +9,7 @@ int main() {
 
     printf("ptr1: %p\n", ptr1);
     printf("ptr1_1: %p\n", ptr1_1);
+    printf("ptr1_1: %d\n", ptr1_1 - ptr1);
     printf("sizeof(int): %d\n", sizeof(int));
 
     return 0;

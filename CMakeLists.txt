@@ -13,3 +13,4 @@ add_executable(delta 2.c)
 target_link_libraries(delta libfoo)
 
 add_executable(ptr ptr.c)
+add_executable(ptr2 ptr2.c)
