@@ -13,6 +13,5 @@ int main() {
             putchar(c);
         lastc = c;
     }
-
     return 0;
 }
