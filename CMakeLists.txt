@@ -18,4 +18,6 @@ add_executable(ptr2 ptr2.c)
 
 add_executable(3 loop.c)
 add_executable(4 loop2.c)
-
+add_executable(count count.c)
+add_executable(replace replace.c)
+add_executable(nospace nospace.c)
