@@ -22,3 +22,7 @@ add_executable(count count.c)
 add_executable(replace replace.c)
 add_executable(nospace nospace.c)
 add_executable(state state.c)
+add_executable(string string.cpp)
+add_executable(throw throw.cpp)
+
+add_executable(new_delete new_delete.cpp)
