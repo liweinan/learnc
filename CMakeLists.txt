@@ -26,3 +26,7 @@ add_executable(string string.cpp)
 add_executable(throw throw.cpp)
 
 add_executable(new_delete new_delete.cpp)
+add_executable(shared_ptr shared_ptr.cpp)
+
+add_executable(point point.c)
+add_executable(funcptr funcptr.c)
