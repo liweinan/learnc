@@ -13,6 +13,11 @@ add_library(libfoo foo.c)
 add_executable(delta 2.c)
 target_link_libraries(delta libfoo)
 
+add_library(lib_inc_x inc_x.c)
+add_library(lib_sum_inc_x_and_y sum_inc_x_and_y.c)
+add_executable(calc calc.c)
+target_link_libraries(calc lib_inc_x lib_sum_inc_x_and_y)
+
 add_executable(ptr ptr.c)
 add_executable(ptr2 ptr2.c)
 
@@ -30,3 +35,5 @@ add_executable(shared_ptr shared_ptr.cpp)
 
 add_executable(point point.c)
 add_executable(funcptr funcptr.c)
+
+add_executable(array array.c)
