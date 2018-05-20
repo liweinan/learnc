@@ -21,6 +21,8 @@ target_link_libraries(calc lib_inc_x lib_sum_inc_x_and_y)
 add_executable(ptr ptr.c)
 add_executable(ptr2 ptr2.c)
 
+add_executable(minus minus.cpp)
+
 add_executable(3 loop.c)
 add_executable(4 loop2.c)
 add_executable(count count.c)
