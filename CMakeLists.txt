@@ -39,3 +39,5 @@ add_executable(point point.c)
 add_executable(funcptr funcptr.c)
 
 add_executable(array array.c)
+
+add_executable(ptrdemo ptrdemo.cpp)
