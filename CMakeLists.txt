@@ -41,3 +41,10 @@ add_executable(funcptr funcptr.c)
 add_executable(array array.c)
 
 add_executable(ptrdemo ptrdemo.cpp)
+
+add_executable(tempref tempref.cc)
+
+add_executable(const_ptr const_ptr.cc)
+
+add_executable(shared_ptr_demo shared_ptr_demo.cc)
+add_executable(padding padding.cc)
