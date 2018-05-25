@@ -50,3 +50,4 @@ add_executable(shared_ptr_demo shared_ptr_demo.cc)
 add_executable(padding padding.cc)
 
 add_executable(vector_demo vector_demo.cc)
+add_executable(virtual_func virtual_func.cc)
