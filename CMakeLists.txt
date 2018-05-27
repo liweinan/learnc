@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(1 1.c)
 add_executable(2 2.c foo.h foo.c)
-
 add_executable(hahaha loop.c)
 add_executable(heihei loop2.c)
 
@@ -20,9 +19,7 @@ target_link_libraries(calc lib_inc_x lib_sum_inc_x_and_y)
 
 add_executable(ptr ptr.c)
 add_executable(ptr2 ptr2.c)
-
 add_executable(minus minus.cpp)
-
 add_executable(3 loop.c)
 add_executable(4 loop2.c)
 add_executable(count count.c)
@@ -31,20 +28,14 @@ add_executable(nospace nospace.c)
 add_executable(state state.c)
 add_executable(string string.cpp)
 add_executable(throw throw.cpp)
-
 add_executable(new_delete new_delete.cpp)
 add_executable(shared_ptr shared_ptr.cpp)
-
 add_executable(point point.c)
 add_executable(funcptr funcptr.c)
-
 add_executable(array array.c)
-
 add_executable(ptrdemo ptrdemo.cpp)
-
 add_executable(tempref tempref.cc)
-
 add_executable(const_ptr const_ptr.cc)
-
 add_executable(shared_ptr_demo shared_ptr_demo.cc)
 add_executable(padding padding.cc)
+add_executable(l_r_vals l_r_vals.cc)
