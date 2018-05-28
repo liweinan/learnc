@@ -5,7 +5,7 @@ void ref(int &v) {
 }
 
 void ptr(int *p) {
-    *p++;
+    *p = *p + 1;
 }
 
 
@@ -16,4 +16,7 @@ int main() {
     std::cout << "after `ref`: " << i << std::endl;
     ptr(&i);
     std::cout << "after `ptr`: " << i << std::endl;
+    int *p = &i;
+    *p = *p + 1;
+    std::cout << "after `*p++`: " << i << std::endl;
 }

@@ -1,8 +1,6 @@
 #include <iostream>
-
-using std::cin;
-using std::cout;
-using std::endl;
+#include <string>
+using namespace std;
 
 int main() {
     cout << "Enter two numbers: " << endl;
@@ -10,5 +8,9 @@ int main() {
     cin >> v1 >> v2;
     cout << "The sum of " << v1 << " and " << v2
         << " is " << v1 + v2 << endl;
+
+    string word;
+    word.append("Hello, Martian!");
+    cout << word << endl;
     return 0;
 }
