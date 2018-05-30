@@ -46,3 +46,5 @@ add_executable(array_cc array.cc)
 add_executable(scores scores.cc)
 add_executable(class_encapsulation class_encapsulation.cc)
 add_executable(return_ref return_ref.cc)
+add_executable(constexpr_demo constexpr_demo.cc)
+
