@@ -47,4 +47,4 @@ add_executable(scores scores.cc)
 add_executable(class_encapsulation class_encapsulation.cc)
 add_executable(return_ref return_ref.cc)
 add_executable(constexpr_demo constexpr_demo.cc)
-
+add_executable(ifstream_demo ifstream_demo.cc)
