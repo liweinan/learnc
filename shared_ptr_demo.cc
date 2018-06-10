@@ -26,9 +26,9 @@ int main()
     /**
     * codes below shows how the reference count change.
     */
-    std::cout << p.use_count() << "\n";
+    std::cout << "in main: " << p.use_count() << "\n";
     auto q = p;
-    std::cout << p.use_count() << "\n";
+    std::cout << "after q = p: " << p.use_count() << "\n";
     std::cout << "the int p now points to is:" << *p << "\n";
     return 0;
 }
