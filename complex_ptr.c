@@ -13,18 +13,21 @@ int main() {
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
 
     char *(*p_x)(char *);
+    char *(*p2_x)(char *);
+
     p_x = x;
+    p2_x = &x;
 
     printf("%s\n", p_x("Red"));
-    printf("%s\n", p_x("Blue"));
+    printf("%s\n", p2_x("Blue"));
 
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
 
     typedef char *(*p_x_t)(char *);
-    p_x_t p2_x = x;
+    p_x_t p3_x = x;
 
-    printf("%s\n", p2_x("Black"));
-    printf("%s\n", p2_x("White"));
+    printf("%s\n", p3_x("Black"));
+    printf("%s\n", p3_x("White"));
 
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
 
