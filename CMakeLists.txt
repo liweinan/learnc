@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9)
 project(cmake_clion)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(1 1.c)
 add_executable(2 2.c foo.h foo.c)
@@ -67,3 +67,5 @@ add_executable(file_io file_io.c)
 add_executable(unsigned_bug_demo unsigned_bug_demo.c)
 add_executable(bt_demo bt_demo.c)
 add_executable(switch_demo switch_demo.cc)
+add_executable(trait_demo trait_demo.cc)
+add_executable(template_demo template_demo.cc)
