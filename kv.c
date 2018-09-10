@@ -30,16 +30,16 @@ int main() {
 
     int v1[] = {1, 2};
     int v2[] = {8, 9};
-    char *pv1 = v1;
-    char *pv2 = v2;
+    int *pv1 = v1;
+    int *pv2 = v2;
 
-    char *vs[] = {pv1, pv2};
+    int *vs[] = {pv1, pv2};
 
     char key[] = {'a', 'b'};
     char *pkey = key;
     int idx = get_value_from_key(ks, vs, pkey);
     if (idx > -1) {
         printf("idx: %d\n", idx);
-        printf("v: %d%d\n", vs[idx][0], vs[idx][1]);
+        printf("v: {%d,%d}\n", vs[idx][0], vs[idx][1]);
     }
 }
