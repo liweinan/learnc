@@ -86,4 +86,7 @@ add_executable(the_stack the_stack.c)
 add_executable(kv kv.c)
 add_executable(heapsort heapsort.c)
 add_executable(ptr_arr ptr_arr.c)
+
+file(GLOB_RECURSE foobar_src "foo/*.c")
+add_executable(foobar ${foobar_src})
 add_executable(order order.c)
