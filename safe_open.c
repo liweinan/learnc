@@ -18,7 +18,7 @@ void callback_with_file(char *filename, char *mode, void *(*callback)(FILE *)) {
 }
 
 void *foo(FILE *fptr) {
-    // do somthing
+    // do something
     return "should be result";
 };
 
