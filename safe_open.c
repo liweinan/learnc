@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void callback_with_file(char *filename, char *mode, void *(*op)(FILE *)) {
+void callback_with_file(char *filename, char *mode, void *(*callback)(FILE *)) {
     FILE *fptr;
 
     if ((fptr = fopen(filename, mode)) == NULL) {
@@ -10,7 +10,7 @@ void callback_with_file(char *filename, char *mode, void *(*op)(FILE *)) {
         exit(1);
     }
 
-    void *result = op(fptr);
+    void *result = callback(fptr);
 
     printf("%s\n", result);
 
