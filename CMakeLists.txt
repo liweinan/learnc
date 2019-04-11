@@ -8,6 +8,7 @@ add_executable(2 2.c foo.h foo.c)
 add_executable(hahaha loop.c)
 add_executable(loop2 loop2.c)
 add_executable(execve execve.c)
+add_executable(lambda lambda.cc)
 
 add_library(foolib foolib.c)
 add_executable(usefoo usefoolib.c)
