@@ -65,8 +65,3 @@ int main() {
 
     // Duff's Device: http://en.wikipedia.org/wiki/Duff's_device
 }
-
-
-
-
-

@@ -97,3 +97,5 @@ add_executable(parse parse.c)
 add_executable(dec_to_bin dec_to_bin.c)
 add_executable(safe_open safe_open.c)
 add_executable(iterator iterator.cc)
+
+add_executable(auto auto.cc)
