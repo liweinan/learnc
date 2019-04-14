@@ -26,14 +26,16 @@ public:
 
 // Definition of a member function of Bar; this member is a friend of Foo
 void Bar::show(Bar &x, Foo &y) {
-    cout << "Show via function member of Bar" << endl;
+    cout << "-=-=-=-=-=-=--=-=-=-" << endl;
+    cout << "Bar::show(Bar &x, Foo &y)" << endl;
     cout << "Bar::a = " << x.a << endl;
     cout << "Foo::b = " << y.b << endl;
 }
 
 // Friend for Bar and Foo, definition of global function
 void show(Bar &x, Foo &y) {
-    cout << "Show via global function" << endl;
+    cout << "-=-=-=-=-=-=--=-=-=-" << endl;
+    cout << "show(Bar &x, Foo &y)" << endl;
     cout << "Bar::a = " << x.a << endl;
     cout << "Foo::b = " << y.b << endl;
 }
