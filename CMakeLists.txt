@@ -100,4 +100,5 @@ add_executable(iterator iterator.cc)
 
 add_executable(auto auto.cc)
 add_executable(template template.cc)
+add_executable(friend friend.cc)
 
