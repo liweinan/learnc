@@ -1,3 +1,4 @@
+// https://arne-mertz.de/2016/11/trailing-return-types-everywhere/
 // 给auto指明具体的返回类型。
 template<class T, class U>
 auto multiply2(T const& lhs, U const& rhs) -> decltype(lhs * rhs) {
