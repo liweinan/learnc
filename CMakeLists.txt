@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9)
 project(cmake_clion)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 add_executable(1 1.c)
 add_executable(2 2.c foo.h foo.c)
@@ -104,3 +104,5 @@ add_executable(friend friend.cc)
 add_executable(map map.cc)
 
 
+add_executable(priority_queue priority_queue.cc)
+add_executable(decltype decltype.cc)
