@@ -10,6 +10,7 @@ add_executable(loop2 loop2.c)
 add_executable(execve execve.c)
 add_executable(lambda lambda.cc)
 add_executable(auto2 auto2.cc)
+add_executable(forward forward.cc)
 
 add_library(foolib foolib.c)
 add_executable(usefoo usefoolib.c)
