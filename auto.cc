@@ -12,7 +12,7 @@ int main() {
     std::cout << "r: " << j << std::endl;
 
     j = j + 1;
-    
+
     std::cout << "a: " << a << std::endl;
     std::cout << "j: " << j << std::endl;
     std::cout << "r: " << j << std::endl;
