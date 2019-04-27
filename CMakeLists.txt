@@ -117,3 +117,4 @@ add_executable(Thing Thing.cc)
 add_executable(regexp regexp.cc)
 
 add_executable(threads threads.cc)
+add_executable(detach detach.cc)
