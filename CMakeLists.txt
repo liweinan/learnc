@@ -115,3 +115,5 @@ add_executable(byref byref.cc)
 add_executable(move move.cc)
 add_executable(Thing Thing.cc)
 add_executable(regexp regexp.cc)
+
+add_executable(threads threads.cc)
