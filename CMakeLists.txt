@@ -118,3 +118,4 @@ add_executable(regexp regexp.cc)
 
 add_executable(threads threads.cc)
 add_executable(detach detach.cc)
+add_executable(constructor constructor.cc)

@@ -1,3 +1,7 @@
+#!/bin/sh
+
+set -x
+
 git add *.c *.cc
 git add CMakeLists.txt
 git commit -a -m '.'
