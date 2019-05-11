@@ -104,7 +104,7 @@ add_executable(auto auto.cc)
 add_executable(template template.cc)
 add_executable(friend friend.cc)
 add_executable(map map.cc)
-
+add_executable(for for.cc)
 
 add_executable(priority_queue priority_queue.cc)
 add_executable(decltype decltype.cc)
