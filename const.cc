@@ -8,5 +8,5 @@ int main() {
     int y = 24;
     const int *p = &x; // pointer to a const int variable
     int * const q = &y; // q is a const pointer
-//    q = &x; // compile error
+    q = &x; // compile error
 }
