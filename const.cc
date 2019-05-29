@@ -3,7 +3,7 @@
 int main() {
 
     // https://www.geeksforgeeks.org/difference-between-const-int-const-int-const-and-int-const/
-    
+
     const int x = 12;
     std::cout << x << std::endl;
 //    x++; // error: cannot assign to variable 'x' with const-qualified type 'const int'
