@@ -25,10 +25,13 @@ add_executable(constexpr_demo constexpr_demo.cc)
 add_executable(constructor constructor.cc)
 add_executable(count count.c)
 add_executable(cut cut.cc)
+
 add_executable(dec_to_bin dec_to_bin.c)
 add_executable(decltype decltype.cc)
 add_executable(detach detach.cc)
 add_executable(dup dup.c)
+add_executable(dynamic dynamic.cc)
+
 add_executable(errorno errorno.cc)
 add_executable(execve execve.c)
 add_executable(file_io file_io.c)
