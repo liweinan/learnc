@@ -1,20 +1,22 @@
 //
 // Created by weli on 2019-06-17.
 //
-
+// https://www.programiz.com/cpp-programming/examples/prime-number
 #include <iostream>
-
 using namespace std;
 
-int main() {
+int main()
+{
     int n, i;
     bool isPrime = true;
 
     cout << "Enter a positive integer: ";
     cin >> n;
 
-    for (i = 2; i <= n / 2; ++i) {
-        if (n % i == 0) {
+    for(i = 2; i <= n / 2; ++i)
+    {
+        if(n % i == 0)
+        {
             isPrime = false;
             break;
         }
