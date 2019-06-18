@@ -18,6 +18,7 @@ add_executable(bt_demo bt_demo.c)
 add_executable(byref byref.cc)
 
 add_executable(class_encapsulation class_encapsulation.cc)
+add_executable(compare compare.cc)
 add_executable(complex_ptr complex_ptr.c)
 add_executable(const const.cc)
 add_executable(const_ptr const_ptr.cc)
@@ -131,3 +132,4 @@ target_link_libraries(calc lib_inc_x lib_sum_inc_x_and_y)
 
 file(GLOB_RECURSE foobar_src "foo/*.c")
 add_executable(foobar ${foobar_src})
+
