@@ -16,6 +16,7 @@ add_executable(auto2 auto2.cc)
 add_executable(bitset bitset.cc)
 add_executable(bt_demo bt_demo.c)
 add_executable(byref byref.cc)
+add_executable(type_convert type_convert.cc)
 
 add_executable(class_encapsulation class_encapsulation.cc)
 add_executable(complex_ptr complex_ptr.c)
