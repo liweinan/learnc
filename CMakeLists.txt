@@ -133,3 +133,4 @@ target_link_libraries(calc lib_inc_x lib_sum_inc_x_and_y)
 
 file(GLOB_RECURSE foobar_src "foo/*.c")
 add_executable(foobar ${foobar_src})
+add_executable(rect rect.cc)
